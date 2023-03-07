@@ -20,8 +20,6 @@ It exist in the goal of putting a lot of small project into this one, making it 
 
 ## TO ADD
 
-# Backend Server
-
-# Spotify API
-
-# Project Ideas
+- [ ] Backend Server
+- [ ] Spotify API
+- [ ] Project Ideas
