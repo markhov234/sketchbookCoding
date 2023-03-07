@@ -1,91 +1,40 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import MainSection from "./components/mainSection";
+import { PageWrapper } from "./components/pageWrapper";
+// import SpotifyCurrentlyPlaying from "./components/SpotifyCurrentlyPlaying";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <PageWrapper>
+      <MainSection>
+        <div className=" px-8 flex justify-center md:justify-between flex-shrink flex-wrap py-5">
+          <div className="w-full text-center md:text-left  md:w-4/6">
+            <div className=" w-full md:w-3/5 ">
+              <h1 className="text-lg md:text-xl font-semibold">
+                Qu'est-ce qu'un sketchbook coding ?
+              </h1>
+              <div className="py-3 ">
+                Ceci est regroupement de plusieurs petits projets, expliqué en
+                détail. Lorsque je trouve quelques choses d'intéressant, je vais
+                le répliquer à ma façon dans ce petit site web.
+              </div>
+            </div>
+            <div className="py-5">
+              <h2 className="text-base text-left md:text-lg">
+                Dernier projet travaillé
+              </h2>
+            </div>
+          </div>
+
+          <div className="">
+            <h3 className=" text-base md:text-lg text-right ml-auto">
+              Activités récentes
+            </h3>
+            <div>{/* <SpotifyCurrentlyPlaying /> */}</div>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      </MainSection>
+    </PageWrapper>
+  );
 }
+
+// "https://api.themoviedb.org/3/movie/popular";
