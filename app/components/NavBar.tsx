@@ -26,7 +26,7 @@ const NAV_ITEMS: Array<Navitem> = [
   },
   {
     label: "Projets",
-    page: "/project",
+    page: "/projects",
   },
   {
     label: "À propos",
@@ -44,7 +44,6 @@ const Navbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   const path = usePathname();
-  console.log(path);
 
   return (
     <header
