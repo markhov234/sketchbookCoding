@@ -36,26 +36,36 @@ Explaining these folowing pages
 
 **_ThemeProvider from next-themes_**
 https://www.npmjs.com/package/next-themes
+
 **_RiMoonFill RiSunLine from react-icons/ri_**
 https://react-icons.github.io/react-icons/icons?name=ri
+
 **_framer-motion_**
 https://www.framer.com/motion/
 **_IoMdMenu IoMdClose from react-icons/io_**
 https://react-icons.github.io/react-icons/icons?name=io
+
 **_Build and Deploy a Responsive Personal Portfolio Website Using Next.js 13, Tailwind CSS and Vercel_**
 https://www.youtube.com/watch?v=7gnVzj_nMJw
+
 **Tailwind css**
 https://v2.tailwindcss.com
+
 **_Colors palette_**
 https://coolors.co/fbb13c-ffffff-505a5b-343f3e-bc96e6
+
 **_Railway_**
 https://docs.railway.app/
+
 **_Prisma_**
 https://www.prisma.io/docs/getting-started
+
 **_Learn React State Managment in 2023 | Client Side vs SSR and React Query Tutorial_**
 https://www.youtube.com/watch?v=627vAbdJ9KA
+
 **_Cloudinary_**
 https://cloudinary.com/
+
 **_ChatGPT_**
 https://openai.com/blog/chatgpt
 
