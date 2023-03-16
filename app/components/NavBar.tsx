@@ -47,9 +47,9 @@ const Navbar = () => {
 
   return (
     <header
-      className={` ${ntr.className} w-full mx-auto px-4 shadow top-0 z-50 sm:px-36 dark:border-stone-600 bg-custom-nav-light dark:bg-custom-nav-dark`}
+      className={` ${ntr.className} w-full mx-auto px-4 shadow top-0 z-50 sm:px-14 dark:border-stone-600 bg-custom-nav-light dark:bg-custom-nav-dark`}
     >
-      <div className="justify-between md:items-center md:flex ">
+      <div className="justify-between md:items-center md:flex lg:max-w-screen-2xl mx-auto  px-0 ">
         <div>
           <div className="flex items-center justify-between py-3">
             <div className="md:py-5 md-block">
@@ -63,7 +63,7 @@ const Navbar = () => {
               >
                 {navbar ? (
                   <IoMdClose
-                    className="hover:scale-125 hover:transform"
+                    className="hover:scale-110 hover:transform"
                     size={30}
                   />
                 ) : (

@@ -30,7 +30,9 @@ export default function RootLayout({
         {mounted && (
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />
-            <div className="px-14 md:px-32">{children}</div>
+            <div className=" px-6 sm:px-14 md:px-26 lg:max-w-screen-2xl mx-auto">
+              {children}
+            </div>
           </ThemeProvider>
         )}
       </body>

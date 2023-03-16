@@ -18,6 +18,9 @@ module.exports = {
         "custom-nav-light": "#BC96E6",
         "custom-nav-dark": "#343F3E",
         "custom-section-light": "#FBFBFF",
+        "custom-section-dark": "#343F3E",
+        "custom-section-dark-light": "#434E4D",
+        "custom-section-light-purple": "#FEFBFF",
       },
       textColor: {
         "custom-highlight-light": "#FBB13C",

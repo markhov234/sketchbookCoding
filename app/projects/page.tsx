@@ -4,9 +4,11 @@ import GetProject from "./GetProject";
 export default async function About() {
   return (
     <PageWrapper>
-      <main className="shadow-lg rounded-md my-5 h-md bg-custom-section-light">
+      <main className="shadow-lg rounded-md my-5 dark:bg-custom-section-dark bg-custom-section-light ">
         <div className="mx-5 my-5">
-          <h1>Hello About</h1>
+          <h1 className="py-5 text-2xl font-semibold w-full text-center">
+            Mes projets
+          </h1>
           <GetProject />
         </div>
       </main>
