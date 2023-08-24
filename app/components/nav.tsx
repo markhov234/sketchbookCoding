@@ -15,7 +15,7 @@ export default function Nav() {
           <a href="/info">Info</a>
         </li>
         <li>
-          <a href="/movie">Movie</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>

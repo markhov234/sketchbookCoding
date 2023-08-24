@@ -11,7 +11,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
 });
-// #TODO Ajout d'une animation smooth pour la changement de theme
+// #TODO Ajout d&apos;une animation smooth pour la changement de theme
 export default function RootLayout({
   children,
 }: {

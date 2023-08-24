@@ -34,8 +34,8 @@ const NAV_ITEMS: Array<Navitem> = [
   },
 
   {
-    label: "Films",
-    page: "/movie",
+    label: "Contact",
+    page: "/contact",
   },
 ];
 

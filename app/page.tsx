@@ -10,11 +10,11 @@ export default function Home() {
           <div className="w-full text-center md:text-left  md:w-4/6">
             <div className=" w-full md:w-3/5 ">
               <h1 className="text-lg md:text-xl font-semibold">
-                Qu'est-ce qu'un sketchbook coding ?
+                Qu&apos;est-ce qu&apos;un sketchbook coding ?
               </h1>
               <div className="py-3 ">
                 Ceci est regroupement de plusieurs petits projets, expliqué en
-                détail. Lorsque je trouve quelques choses d'intéressant, je vais
+                détail. Lorsque je trouve quelques choses d&apos;intéressant, je vais
                 le répliquer à ma façon dans ce petit site web.
               </div>
             </div>
